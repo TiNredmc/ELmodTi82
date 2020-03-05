@@ -13,3 +13,6 @@ EL backlight mod for TI-82. This Repo includes Schematic, PCB and BOMs.
 
 # PCB
 V1 https://oshpark.com/shared_projects/CnYBnhLE , V2 https://oshpark.com/shared_projects/YBjWS07Q
+
+# UPDATE 1 (2020/3/5)
+I just confused thinking that I order the SOD-123 but it's turn out to be SOD-323 which is smaller, but from online lookup on Google. they still some different but you (and me) can actually solder this tiny, by just put it in center and put LOADS of solder to hold it.
