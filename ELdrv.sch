@@ -7267,16 +7267,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="U$1" library="HV823" deviceset="HV823" device="" package3d_urn="urn:adsk.eagle:package:17696996/1"/>
-<part name="U$2" library="561J-PF" deviceset="NL453232T-561J-PF" device="" package3d_urn="urn:adsk.eagle:package:17704618/1"/>
+<part name="U1" library="HV823" deviceset="HV823" device="" package3d_urn="urn:adsk.eagle:package:17696996/1"/>
+<part name="L1" library="561J-PF" deviceset="NL453232T-561J-PF" device="" package3d_urn="urn:adsk.eagle:package:17704618/1"/>
 <part name="D1" library="diode" deviceset="CGRM400*-G" device="" value="1N4148"/>
 <part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1"/>
 <part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1"/>
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:6240396/1" value="1nF 16V"/>
-<part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
-<part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
-<part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
-<part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
+<part name="VA" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
+<part name="VB" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
+<part name="GND" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
+<part name="VCC" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
 <part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-040X050" package3d_urn="urn:adsk.eagle:package:6240321/1" value="0.01uF 100V"/>
 </parts>
 <sheets>
@@ -7284,8 +7284,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="88.9" y="43.18" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="50.8" y="43.18" smashed="yes" rot="R180"/>
+<instance part="U1" gate="G$1" x="88.9" y="43.18" smashed="yes"/>
+<instance part="L1" gate="G$1" x="50.8" y="43.18" smashed="yes" rot="R180"/>
 <instance part="D1" gate="G$1" x="66.04" y="40.64" smashed="yes">
 <attribute name="NAME" x="63.5" y="43.6626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="63.5" y="38.3286" size="1.778" layer="96"/>
@@ -7302,19 +7302,19 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="77.216" y="28.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="74.676" y="26.289" size="1.778" layer="96"/>
 </instance>
-<instance part="TP1" gate="G$1" x="114.3" y="45.72" smashed="yes" rot="R90">
+<instance part="VA" gate="G$1" x="114.3" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="118.745" y="43.18" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="115.57" y="48.26" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="TP2" gate="G$1" x="114.3" y="40.64" smashed="yes" rot="R90">
+<instance part="VB" gate="G$1" x="114.3" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="118.745" y="38.1" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="115.57" y="43.18" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="TP3" gate="G$1" x="106.68" y="35.56" smashed="yes" rot="R90">
+<instance part="GND" gate="G$1" x="106.68" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="111.125" y="33.02" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="107.95" y="38.1" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="TP4" gate="G$1" x="40.64" y="53.34" smashed="yes" rot="R180">
+<instance part="VCC" gate="G$1" x="40.64" y="53.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.18" y="57.785" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="38.1" y="54.61" size="1.778" layer="97" rot="R180"/>
 </instance>
@@ -7328,18 +7328,18 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
+<pinref part="L1" gate="G$1" pin="P$1"/>
 <wire x1="60.96" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="63.5" y1="40.64" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
 <junction x="63.5" y="40.64"/>
 <wire x1="63.5" y1="35.56" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="LX"/>
+<pinref part="U1" gate="G$1" pin="LX"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="CS"/>
+<pinref part="U1" gate="G$1" pin="CS"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="68.58" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -7349,9 +7349,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
+<pinref part="U1" gate="G$1" pin="VDD"/>
 <wire x1="73.66" y1="50.8" x2="63.5" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
+<pinref part="L1" gate="G$1" pin="P$2"/>
 <wire x1="63.5" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="50.8" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -7361,23 +7361,23 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="55.88" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
+<pinref part="VCC" gate="G$1" pin="TP"/>
 <junction x="40.64" y="50.8"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="REL-OSC"/>
+<pinref part="U1" gate="G$1" pin="REL-OSC"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="73.66" y1="25.4" x2="104.14" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="25.4" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
+<pinref part="GND" gate="G$1" pin="TP"/>
 <junction x="104.14" y="35.56"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="25.4" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
@@ -7386,21 +7386,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VA"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
+<pinref part="U1" gate="G$1" pin="VA"/>
+<pinref part="VA" gate="G$1" pin="TP"/>
 <wire x1="104.14" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VB"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
+<pinref part="U1" gate="G$1" pin="VB"/>
+<pinref part="VB" gate="G$1" pin="TP"/>
 <wire x1="104.14" y1="40.64" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="RSW-OSC"/>
+<pinref part="U1" gate="G$1" pin="RSW-OSC"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="45.72" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
 <junction x="73.66" y="45.72"/>
